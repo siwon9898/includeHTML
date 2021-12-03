@@ -1,0 +1,11 @@
+includeHTML.js 콜백함수 사용순서
+
+1. includeHTML.js 를 기존 프로젝트 파일에 추가
+2. navbar.html 따로 생성하여 navbar 부분 이동, 기존 html파일에서 navbar 부분 삭제
+3. 기존 html에서 navbar 작성되어있던 부분에  <div class= "navbar" include-html = "/navbar.html">
+추가
+4.  body 태그 하단에 <script>includeHTML();</script> 작성하여 콜백 함수 실행
+
+includeHTML.js 파일 링크
+https://github.com/siwon9898/includeHTML
+내려받으시면 됩니다.
